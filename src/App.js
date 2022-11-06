@@ -11,6 +11,7 @@ function App() {
       projectID="c8769ad7-1b54-4ea6-b226-5c5f539958cc"
       userName="WarsayT"
       userSecret="wars123"
+      renderNewChatForm={(creds) => {}} 
       renderChatFeed={(chatAppProps) =>  <ChatFeed {...chatAppProps} />}
     />
   );
